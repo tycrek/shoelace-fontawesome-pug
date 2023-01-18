@@ -1,0 +1,38 @@
+{
+	"name": "shoelace-fontawesome-pug",
+	"version": "0.0.0",
+	"description": "A Pug Mixin for using Font Awesome Pro icons with Shoelace Icon components.",
+	"author": "tycrek <t@tycrek.com> (https://tycrek.com)",
+	"type": "module",
+	"scripts": {
+		"build": "node build.js",
+		"test": "echo \"Testing not necessary.\" && exit 0",
+		"release": "np"
+	},
+	"files": [
+		"sl-fa-mixin.pug",
+		"sl-fa-bin.js"
+	],
+	"main": "sl-fa-bin.js",
+	"bin": {
+		"sl-fa": "sl-fa-bin.js"
+	},
+	"repository": "github:tycrek/shoelace-fontawesome-pug",
+	"homepage": "https://github.com/tycrek/shoelace-fontawesome-pug#readme",
+	"bugs": "https://github.com/tycrek/shoelace-fontawesome-pug/issues",
+	"keywords": [
+		"shoelace",
+		"fontawesome",
+		"fontawesome-pro",
+		"pug",
+		"pug-mixin",
+		"icons"
+	],
+	"license": "ISC",
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"pug": "^3.0.2"
+	}
+}
