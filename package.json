@@ -1,7 +1,7 @@
 {
 	"name": "shoelace-fontawesome-pug",
 	"version": "6.2.1",
-	"description": "A Pug Mixin for using Font Awesome Pro icons with Shoelace Icon components.",
+	"description": "A Pug mixin to make it easier to load Font Awesome Pro icons with Shoelace.",
 	"author": "tycrek <t@tycrek.com> (https://tycrek.com)",
 	"type": "module",
 	"scripts": {
