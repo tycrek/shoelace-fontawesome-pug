@@ -3,9 +3,7 @@ import fs from 'fs';
 // Header for the mixin
 const header = `
 //- Authored by: tycrek <t@tycrek.com> (https://tycrek.com)
-//- Font Awesome self-hosted SVGs via Cloudflare Pages
-//- see: CF Pages docs > Direct Uploads
-//- see: FA docs > Web > Self-hosted SVG+JS (only hosting JS/SVG/CSS/Webfonts)
+//- Font Awesome self-hosted SVGs via Cloudflare Workers+R2
 script(type='module').`;
 
 // Read the code and replace all tabs with spaces (ughghh)
