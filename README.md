@@ -28,6 +28,22 @@ shoelace-fontawesome-pug
 
 This mixin really just wraps the [code recommended by Shoelace](https://shoelace.style/components/icon/#font-awesome) with a preset CDN for Font Awesome 6.4.0 icons.
 
+### How do I define icon styles?
+
+Each icon style is determined with a simple prefix. In the example above, `fab-github` uses the `fab` prefix, indicating `Font Awesome Brands`. The other prefixes follow the same convention:
+
+| Prefix | Style |
+| ------ | ----- |
+| `fas-` | Solid |
+| `far-` | Regular |
+| `fal-` | Light |
+| `fat-` | Thin |
+| `fad-` | Duotone |
+| `fab-` | Brands |
+| `fass-` | Sharp Solid |
+| `fasr-` | Sharp Regular |
+| `fasl-` | Sharp Light |
+
 [Pug]: https://pugjs.org/api/getting-started.html
 [Font Awesome]: https://fontawesome.com/
 [Shoelace]: https://shoelace.style/
