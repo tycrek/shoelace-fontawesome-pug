@@ -1,4 +1,4 @@
-import { registerIconLibrary } from '%SHOELACE_CDN%/dist/utilities/icon-library.js';
+import { registerIconLibrary } from '%SHOELACE_CDN%/cdn/utilities/icon-library.js';
 
 registerIconLibrary('fa', {
 	resolver: (name) => {
